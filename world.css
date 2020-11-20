@@ -1,1 +1,63 @@
 /* Add your own styles */
+
+*{
+    font-family: -apple-system, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+
+body{
+        margin:0;
+        font-size:16px;background-color: rgb(177, 209, 236);
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    background-color: rgb(35, 48, 73) ;
+    color:white;
+    margin: 5px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 80vw;
+} 
+
+.th, .td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input[type='search']{
+    font-size:16px;
+    width:50%;
+    padding:15px 5px;
+    border:solid 1px rgb(35, 48, 73);
+    border-radius:5px;
+}
+
+button{
+    font-size:16px;
+    border:none;
+    padding:10px 20px;
+    margin:10px 10px;
+    border-radius:5px;
+    color:rgb(57, 73, 102);
+    font-weight:bold;
+}
+
+.buttonDiv{
+    margin-top: 5px;
+}
